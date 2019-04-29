@@ -1,0 +1,29 @@
+/* Conteneur principal */
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+/* Image originale */
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: 100;
+}
+/* Texte original */
+.overlay-image .text {
+ color: #32CD32	;
+ font-size: 20px;
+
+transform: rotate(-32deg);
+    -moz-transform: rotate(-32deg);
+    -webkit-transform: rotate(-32deg);
+    -khtml-transform: rotate(-32deg);
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 20%;
+ left: -20%;
+
+ width: 100%;
+}
